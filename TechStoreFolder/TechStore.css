@@ -35,6 +35,26 @@ header{
     user-select: none;
 }
 
+.content {
+    margin-left: -20%;
+    margin-top: -10%;
+}
+
+.content h1 {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+span{
+    color: white;
+    }
+
+    .content {
+        color: white;
+        line-height: 22px;
+    }
+
 .navigation a{
     position: relative;
     font-size: 1.1em;
