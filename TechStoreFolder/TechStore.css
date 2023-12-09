@@ -283,6 +283,33 @@ span{
     text-decoration: underline;
 }
 
+h1{
+    display: flex;
+    color: white;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+p{
+    color: white;
+    margin: auto;
+}
+
+.About_us{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-inline: 40px;
+    border-radius: 8px;
+    box-shadow: 20px;
+    font-size: larger;
+}
+
 
 
 
