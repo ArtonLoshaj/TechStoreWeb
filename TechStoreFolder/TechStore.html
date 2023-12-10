@@ -40,14 +40,16 @@
                 <span class="icon">
                     <ion-icon name="mail"></ion-icon>
                 </span>
-                <input type="text" required>
+                <input id="ID" type="text" required>
                 <label>Email</label>
+                <div class="gabiminemail" id="emailgabim"></div>
             </div>
             <div class="input-box">
                 <span class="icon">
                     <ion-icon name="lock-closed"></ion-icon>
                     </span>
-                <input type="password" required>
+                <input id="pass" type="password" required>
+                <div class="gabiminpass" id="passigabim"></div>
                 <label>Password</label>
                 </div>
                     <div class="remember-forgot">
@@ -55,7 +57,7 @@
                         <a href="#"> Forgot Password?</a>
                     </div>
                         <div>
-                            <button type="submit" class="btn">Login</button> 
+                            <button type="submit" class="btn" onclick="kyciratu()">Login</button> 
                             <div class="login-register">
                                 <p>Don't have an account? <a 
                                     href="#"
@@ -74,21 +76,25 @@
                 <span class="icon">
                     <ion-icon name="person-outline"></ion-icon>
                 </span>
-                <input type="text" required>
+                <input id="User" type ="text" required>
+                <div class="gabiminemer" id="emrigabim"></div>
                 <label>Username</label>
+                
             </div>
             <div class="input-box">
                 <span class="icon">
                     <ion-icon name="mail"></ion-icon>
                 </span>
-                <input type="text" required>
+                <input id="email" type="text" required>
+                <div class="gabiminemail" id="emailgabimr"></div>
                 <label>Email</label>
+                
             </div>
             <div class="input-box">
                 <span class="icon">
                     <ion-icon name="lock-closed"></ion-icon>
                     </span>
-                <input type="password" required>
+                <input id="pass"type="password" required>
                 <label>Password</label>
                 </div>
                     <div class="remember-forgot">
@@ -96,7 +102,7 @@
                         I agree to the terms & conditions</label>
                         </div>
                         <div>
-                            <button type="submit" class="btn">Register</button> 
+                            <button type="submit" class="btn" onclick="registeratu()">Register</button> 
                             <div class="login-register">
                                 <p>Already have an account? <a 
                                     href="#"
